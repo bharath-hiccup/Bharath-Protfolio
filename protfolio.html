@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B Bharath Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="cv-bracket">[</span> B. BHARATH KUMAR <span class="cv-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#experience">Experience & Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="status-badge"><span class="pulse-dot"></span> SYSTEM ONLINE // AI & COMPUTER VISION ASPIRANT</div>
+      <h1>Hello, I'm <span class="highlight">B Bharath Kumar</span></h1>
+      <p class="tagline">Passionate developer building real-time computer vision and machine learning solutions.</p>
+      <div class="location-tag">
+        <i class="fa-solid fa-location-dot"></i> Holagunda, Kurnool Dist, Andhra Pradesh
+      </div>
+      <div class="hero-btns">
+        <a href="#project" class="btn primary-btn"><i class="fa-solid fa-eye"></i> View Main Project</a>
+        <a href="#contact" class="btn secondary-btn"><i class="fa-solid fa-envelope"></i> Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title"><span class="title-decor">//</span> About Me</h2>
+    <div class="about-card cv-frame">
+      <p>I am a computer science student passionate about software development, core programming, and artificial intelligence. My primary area of focus lies in leveraging computer vision techniques and real-time object tracking to solve real-world problems.</p>
+      <p>With hands-on experience in computer vision pipelines using Python, OpenCV, and deep learning detectors, I strive to build high-performance applications that transform video data into actionable insights.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title"><span class="title-decor">//</span> Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>HTML / CSS</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fa-solid fa-database"></i> Databases</h3>
+        <ul>
+          <li>MySQL</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+        <ul>
+          <li>GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3><i class="fa-solid fa-brain"></i> Concepts</h3>
+        <ul>
+          <li>Object-Oriented Programming (OOP)</li>
+          <li>Data Structures & Algorithms (DSA)</li>
+          <li>Machine Learning (Currently Learning)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section id="project" class="section">
+    <h2 class="section-title"><span class="title-decor">//</span> Featured Project</h2>
+    <div class="project-card cv-frame">
+      <div class="project-header">
+        <span class="live-tag"><i class="fa-solid fa-record-vinyl"></i> DETECTOR MODULE</span>
+        <h3>Social Distancing Detection in Real Time with AI</h3>
+      </div>
+      
+      <p class="project-desc">
+        A computer-vision-based system designed to analyze live camera feeds or pre-recorded videos to monitor and maintain social distancing standards automatically. The pipeline processes video frames, detects individuals, tracks their movement, and computes spatial distances using perspective transformations.
+      </p>
+
+      <div class="project-details">
+        <h4>Key Components & Workflow:</h4>
+        <ul>
+          <li><strong>YOLOv3 Object Detection:</strong> Real-time detection of people in frame.</li>
+          <li><strong>SORT Tracking:</strong> Assigns unique IDs to track individual trajectories across frames.</li>
+          <li><strong>Bird’s Eye View Transformation:</strong> Applies perspective transformation to map camera coordinates into a top-down planar view for accurate distance calculation.</li>
+          <li><strong>Alerting Mechanism:</strong> Highlights proximity violations visually with warning markers when safe distance thresholds are breached.</li>
+        </ul>
+      </div>
+
+      <div class="tech-stack">
+        <span>Python</span>
+        <span>OpenCV</span>
+        <span>NumPy</span>
+        <span>imutils</span>
+        <span>YOLOv3</span>
+        <span>SORT Tracking</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://github.com/bharath-hiccup" target="_blank" class="btn secondary-btn">
+          <i class="fa-brands fa-github"></i> GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Certificates Section -->
+  <section id="experience" class="section">
+    <h2 class="section-title"><span class="title-decor">//</span> Experience & Certificates</h2>
+    <div class="timeline">
+      
+      <!-- Internship Entry -->
+      <div class="timeline-item cv-frame">
+        <div class="timeline-date">Nov 2025 – Apr 2026 (6 Months)</div>
+        <h3>Industrial Training Intern</h3>
+        <p class="org">Organized by Bheema Institute of Technology and Science, Adoni in association with 360DigiTMG</p>
+        <p class="desc">
+          Completed an intensive 6-month hands-on industrial training program focused on software development practices, machine learning workflows, and practical applications in digital transformation.
+        </p>
+        <a href="6_months_internship_training_certificate.pdf" target="_blank" class="cert-link">
+          <i class="fa-solid fa-file-pdf"></i> View Internship Certificate
+        </a>
+      </div>
+
+      <!-- Workshop Entry -->
+      <div class="timeline-item cv-frame">
+        <div class="timeline-date">October 2025</div>
+        <h3>Workshop: Paradigms of Machine Learning</h3>
+        <p class="org">Provided by 360DigiTMG in association with Bheema Institute of Technology and Science, Adoni</p>
+        <p class="desc">
+          Participated in a comprehensive technical workshop covering fundamental machine learning algorithms, model training techniques, and practical paradigms in AI development.
+        </p>
+        <a href="Machine_learning_workshop_certificate.pdf" target="_blank" class="cert-link">
+          <i class="fa-solid fa-file-pdf"></i> View Workshop Certificate
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title"><span class="title-decor">//</span> Contact Information</h2>
+    
+    <div class="contact-grid">
+      <a href="mailto:bharath94.boggur@gmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <h4>Email</h4>
+        <p>bharath94.boggur@gmail.com</p>
+      </a>
+
+      <a href="tel:6305414247" class="contact-card">
+        <i class="fa-solid fa-phone"></i>
+        <h4>Phone</h4>
+        <p>+91 6305414247</p>
+      </a>
+
+      <a href="https://github.com/bharath-hiccup" target="_blank" class="contact-card">
+        <i class="fa-brands fa-github"></i>
+        <h4>GitHub</h4>
+        <p>bharath-hiccup</p>
+      </a>
+
+      <a href="https://www.linkedin.com/in/bharath-kumar-boggur-380940379/" target="_blank" class="contact-card">
+        <i class="fa-brands fa-linkedin"></i>
+        <h4>LinkedIn</h4>
+        <p>Bharath Kumar Boggur</p>
+      </a>
+    </div>
+
+    <!-- Direct Email Message Form -->
+    <div class="contact-form-container cv-frame">
+      <h3>Send Message</h3>
+      <p class="form-subtitle">Share your requirement and I will contact you directly by email.</p>
+      
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+        <!-- Get a free access key at https://web3forms.com and paste it below -->
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email *</label>
+            <input type="email" id="email" name="email" required placeholder="john@example.com">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn primary-btn">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 B Bharath Kumar. Built with clean HTML & CSS.</p>
+  </footer>
+
+</body>
+</html>
